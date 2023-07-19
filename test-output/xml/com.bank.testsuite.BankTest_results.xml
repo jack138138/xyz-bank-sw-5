@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bank Test"
+           tests="5"
+           failures="5"
+           errors="0"
+           skipped="0"
+           time="0.335">
+  <properties />
+            <testcase name="customerShouldDepositMoneySuccessfully" time="0.002" classname="com.bank.testsuite.BankTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.bank.utility.Utility.clickOnElement(Utility.java:58)
+  com.bank.pages.HomePage.clickOnCustomerLogin(HomePage.java:33)
+  com.bank.testsuite.BankTest.customerShouldDepositMoneySuccessfully(BankTest.java:60)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="customerShouldWithdrawMoneySuccessfully" time="0.000" classname="com.bank.testsuite.BankTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.bank.utility.Utility.clickOnElement(Utility.java:58)
+  com.bank.pages.HomePage.clickOnCustomerLogin(HomePage.java:33)
+  com.bank.testsuite.BankTest.customerShouldWithdrawMoneySuccessfully(BankTest.java:71)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="bankManagerShouldAddCustomerSuccessfully" time="0.332" classname="com.bank.testsuite.BankTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.bank.utility.Utility.clickOnElement(Utility.java:58)
+  com.bank.pages.HomePage.clickOnBankManagerLogin(HomePage.java:27)
+  com.bank.testsuite.BankTest.bankManagerShouldAddCustomerSuccessfully(BankTest.java:26)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="bankManagerShouldOpenAccountSuccessfully" time="0.001" classname="com.bank.testsuite.BankTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.bank.utility.Utility.clickOnElement(Utility.java:58)
+  com.bank.pages.HomePage.clickOnBankManagerLogin(HomePage.java:27)
+  com.bank.testsuite.BankTest.bankManagerShouldOpenAccountSuccessfully(BankTest.java:39)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="customerShouldLoginAndLogoutSuceessfully" time="0.000" classname="com.bank.testsuite.BankTest">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.bank.utility.Utility.clickOnElement(Utility.java:58)
+  com.bank.pages.HomePage.clickOnCustomerLogin(HomePage.java:33)
+  com.bank.testsuite.BankTest.customerShouldLoginAndLogoutSuceessfully(BankTest.java:50)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>
